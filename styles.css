@@ -11,9 +11,9 @@ color:#111;
 line-height:1.6;
 background: linear-gradient(
 135deg,
-#fae7ee 0%,
-#f1f2f4 50%,
-#e5edf8 100%
+#f7eef1 0%,
+#f2f0f9 50%,
+#eef8e5 100%
 );
 }
 
@@ -219,6 +219,11 @@ color: #666;
 
 .spacer {
   height: 80px;
+}
+
+.span-2 {
+  grid-column: span 2;
+  grid-row: span 2 ;
 }
 
 
