@@ -7,7 +7,8 @@
 
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -18,10 +19,15 @@
 <!-- NAV -->
 <nav class="nav">
   <div class="logo">
-  <img src="assets/BWLogo.png" alt="BW">
-</div>
-<ul class="nav-links">
-    <li><a href="#">Work</a></li>  
+    <img src="../assets/BWLogo.png" alt="BW">
+  </div>
+  <button class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="../index.html">Work</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
@@ -32,10 +38,8 @@
 <section class="hero fade-in">
   <h2>Bridget Williams</h2>
     <h1>Graphic Designer & Visual Storyteller</h1>
-  <p>
-  I design bold, thoughtful visual systems that help brands communicate clearly.
-  Below are a few of my favorite projects.
-  </p>
+  
+  <hr class="divider">
 </section>
 
 
@@ -59,12 +63,12 @@
     <h3>Gibbs Smith Education</h3>
     <p>Long Format Print</p>
   </a>
-  
-  <div class="project-card fade-in">
-    <img src="assets/DHSwebsite.png" alt="Project 4">
+
+  <a href="projects/hotsprings.html" class="project-card fade-in">
+    <img src="assets/DHSwebsitecard.png" alt="Project 4">
     <h3>Durango Hot Springs Resort</h3>
     <p>Website + Social Graphics</p>
-  </div>
+  </a>
 
   <div class="project-card fade-in">
     <img src="assets/adprocover copy.jpg" alt="Project 5">
@@ -88,7 +92,7 @@
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="./script.js"></script>
 
 </body>
 </html>
