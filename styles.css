@@ -226,8 +226,8 @@ transform:scale(1.05);
 }
 
 .span-2 {
-  max-width: 80%;
-  margin: 80px;
+  max-width: 100%;
+  margin: auto;
 }
 
 
