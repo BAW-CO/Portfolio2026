@@ -341,6 +341,14 @@ color: #666;
   color: white;
 }
 
+.contact-links {
+  display: flex;
+  gap: 30px;           /* space between links */
+  margin-top: 20px;
+}
+
+
+
 /* Footer */
 .footer{
 margin-top:120px;
